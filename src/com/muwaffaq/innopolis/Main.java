@@ -1,5 +1,8 @@
 package com.muwaffaq.innopolis;
 
+import com.muwaffaq.innopolis.labwork.Father;
+import com.muwaffaq.innopolis.labwork.Son;
+
 public class Main {
 
     /**
@@ -9,6 +12,13 @@ public class Main {
      */
 
     public static void main(String[] args) {
-        System.out.println("Hello!, please check branches for labs..");
+        Son son = new Son("Vlad", "ivanov");
+        Father father = new Father("max","ivanov",son);
+        father.giveAllowances(100);
+        father.payBills(200);
+        son.buyBooks(90);
+        son.report();
+        father.report();
+
     }
 }
