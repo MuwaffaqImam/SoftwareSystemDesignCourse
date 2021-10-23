@@ -1,6 +1,6 @@
-package com.muwaffaq.innopolis.oop;
+package com.muwaffaq.innopolis.lab02;
 
-public class Cat  extends Animal implements Playable {
+public class Cat    {
    private String name;
    private String catType;
 
@@ -18,22 +18,4 @@ public class Cat  extends Animal implements Playable {
     }
 
 
-    public String getName() {
-        return name;
-    }
-
-    public String getCatType() {
-        return catType;
-    }
-
-
-    @Override
-    void eat() {
-
-    }
-
-    @Override
-    public void play() {
-
-    }
 }

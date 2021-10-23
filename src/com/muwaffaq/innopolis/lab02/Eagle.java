@@ -1,6 +1,6 @@
-package com.muwaffaq.innopolis.oop;
+package com.muwaffaq.innopolis.lab02;
 
-public class Eagle extends Animal implements Flyable {
+public class Eagle  {
     String name;
     String eagleType;
 
@@ -18,13 +18,5 @@ public class Eagle extends Animal implements Flyable {
     }
 
 
-    @Override
-    void eat() {
 
-    }
-
-    @Override
-    public void fly() {
-
-    }
 }

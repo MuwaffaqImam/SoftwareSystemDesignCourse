@@ -1,7 +1,10 @@
 package com.muwaffaq.innopolis;
 
+import com.muwaffaq.innopolis.lab02.encapsulation.Man;
 import com.muwaffaq.innopolis.labwork.Father;
 import com.muwaffaq.innopolis.labwork.Son;
+
+import java.util.Arrays;
 
 public class Main {
 
@@ -12,13 +15,19 @@ public class Main {
      */
 
     public static void main(String[] args) {
-        Son son = new Son("Vlad", "ivanov");
-        Father father = new Father("max","ivanov",son);
-        father.giveAllowances(100);
-        father.payBills(200);
-        son.buyBooks(90);
-        son.report();
-        father.report();
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
