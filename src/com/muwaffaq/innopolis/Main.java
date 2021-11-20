@@ -1,32 +1,23 @@
 package com.muwaffaq.innopolis;
 
-import com.muwaffaq.innopolis.lab02.encapsulation.Man;
-import com.muwaffaq.innopolis.labwork.Father;
-import com.muwaffaq.innopolis.labwork.Son;
 
-import java.util.Arrays;
+import com.muwaffaq.innopolis.lab02.animal.*;
+import com.muwaffaq.innopolis.lab02.animal.Zoo;
 
 public class Main {
 
-    /**
-     * This is the Main branch it does Nothing
-     * Every lab has it's own branch, so please check branches ..
-     * @param args
-     */
 
     public static void main(String[] args) {
 
+        Animal cat = new Cat("Fluffy");
+        Animal eagle = new Eagle("Eagle");
+        cat.addToZoo();
+        eagle.addToZoo();
+        Zoo zoo = Zoo.getInstance();
+        zoo.showAnimal();
+
+
     }
-
-
-
-
-
-
-
-
-
-
 
 
 

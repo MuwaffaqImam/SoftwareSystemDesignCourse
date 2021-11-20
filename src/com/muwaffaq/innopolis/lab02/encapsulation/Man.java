@@ -2,24 +2,41 @@ package com.muwaffaq.innopolis.lab02.encapsulation;
 
 public class Man {
 
-    public String name;
+    private String name;
     private String secrets;
-    protected double salary;
-    String car;
+    private String car;
+    private double salary;
 
     public String getName() {
+
         return name;
     }
 
-    private String getSecrets() {
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSecrets() {
         return secrets;
     }
 
-    protected double getSalary() {
+    public void setSecrets(String secrets) {
+        this.secrets = secrets;
+    }
+
+    public String getCar() {
+        return car;
+    }
+
+    public void setCar(String car) {
+        this.car = car;
+    }
+
+    public double getSalary() {
         return salary;
     }
 
-     String getCar() {
-        return car;
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 }

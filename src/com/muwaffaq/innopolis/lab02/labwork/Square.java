@@ -19,7 +19,13 @@ public class Square extends Shape {
         return name;
     }
 
+    public void changeRadiousInCircle(double radious){
+        Circle circle = new Circle(10,20,40,"circle");
+        circle.setRadius(40);
+    }
+
     public void setName(String name) {
         this.name = name;
     }
+
 }
