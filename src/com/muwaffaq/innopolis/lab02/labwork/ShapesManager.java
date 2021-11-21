@@ -18,9 +18,6 @@ public class ShapesManager {
         this.shapes = new ArrayList<>();
     }
 
-    public void addShapes(Shape shape){
-
-    }
 
     public void registerShape(Shape shape) {
         shapes.add(shape);
