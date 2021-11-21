@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.lab02.animal;
+package com.muwaffaq.innopolis.singeliton;
 
 public class Cat extends Animal implements Playable {
     public double catPrice;

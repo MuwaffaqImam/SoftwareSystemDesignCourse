@@ -1,9 +1,7 @@
-package com.muwaffaq.innopolis;
+package com.muwaffaq.innopolis.singeliton;
 
 
-import com.muwaffaq.innopolis.singeliton.*;
-
-public class Main {
+public class MainSingleton {
 
 
     public static void main(String[] args) {
