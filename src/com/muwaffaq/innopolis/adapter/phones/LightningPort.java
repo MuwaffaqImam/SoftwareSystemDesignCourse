@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.adapter;
+package com.muwaffaq.innopolis.adapter.phones;
 
 public interface LightningPort {
 
