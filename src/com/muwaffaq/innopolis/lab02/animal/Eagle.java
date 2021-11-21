@@ -4,8 +4,8 @@ public class Eagle extends Animal implements Flyable {
     String eagleType;
 
 
-    public Eagle(String name) {
-        super(name);
+    public Eagle(String type) {
+        super(type);
     }
 
     void hunt(){

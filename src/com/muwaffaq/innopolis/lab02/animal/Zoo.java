@@ -5,31 +5,22 @@ import java.util.List;
 
 public class Zoo {
 
-    List<Animal> animals;
+    private final List<Animal> animalList;
 
-    static Zoo instance;
-
-    public static Zoo getInstance() {
-        if (instance == null)
-            return new Zoo();
-        else
-            return instance;
+    static public final Zoo instance = new Zoo();
+    static public Zoo getInstance() {
+        return instance;
     }
 
     private Zoo() {
-        this.animals = new ArrayList<>();
+        this.animalList = new ArrayList<>();
     }
-
 
     public void addAnimal(Animal animal) {
-        animals.add(animal);
+        animalList.add(animal);
     }
 
-    public void showAnimal() {
-        System.out.printf("in our zoo we have :%d Animal :\n", animals.size());
-        for (Animal a : animals) {
-            System.out.println(a.name);
-        }
+    public void displayAnimals() {
+        System.out.printf("We have %d Animals in the zoo", animalList.size());
     }
-
 }

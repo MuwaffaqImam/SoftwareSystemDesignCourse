@@ -5,17 +5,17 @@ public abstract class Animal {
     public String animalType;
 
 
-    public Animal(String name) {
-        this.name = name;
+    public Animal(String animalType) {
+        this.animalType = animalType;
     }
 
     public abstract void eat();
 
-
-    public void addToZoo() {
+    public void addToZoo(){
         Zoo zoo = Zoo.getInstance();
         zoo.addAnimal(this);
     }
+
 
 
     public Animal() {

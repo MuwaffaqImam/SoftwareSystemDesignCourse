@@ -9,8 +9,8 @@ public class Cat extends Animal implements Playable {
     public void eat() {
     }
 
-    public Cat(String catName) {
-        super(catName);
+    public Cat(String type) {
+        super(type);
 
     }
 
