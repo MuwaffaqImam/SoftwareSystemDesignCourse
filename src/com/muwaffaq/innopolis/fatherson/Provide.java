@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.labwork;
+package com.muwaffaq.innopolis.fatherson;
 
 public interface Provide {
 

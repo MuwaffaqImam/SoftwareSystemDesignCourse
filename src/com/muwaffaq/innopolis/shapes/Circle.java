@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.lab02.labwork;
+package com.muwaffaq.innopolis.shapes;
 
 public class Circle extends Shape {
 

@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.labwork;
+package com.muwaffaq.innopolis.fatherson;
 
 public class Father extends Person implements Provide {
     private double salary = 1000;

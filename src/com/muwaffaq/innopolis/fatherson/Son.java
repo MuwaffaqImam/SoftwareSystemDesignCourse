@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.labwork;
+package com.muwaffaq.innopolis.fatherson;
 
 public class Son extends Person implements Study {
     private double allowances;

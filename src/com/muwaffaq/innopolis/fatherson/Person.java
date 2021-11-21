@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.labwork;
+package com.muwaffaq.innopolis.fatherson;
 
 public abstract class Person {
     protected String lastname;

@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.lab02.encapsulation;
+package com.muwaffaq.innopolis.encapsulation;
 
 public class Game {
 
