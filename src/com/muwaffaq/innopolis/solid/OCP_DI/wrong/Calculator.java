@@ -13,7 +13,7 @@ public class Calculator {
     private double left;
     private double right;
 
-    enum Operation {ADD, SUBTRACT, DIVIDE,MULTIPLICATION}
+     enum Operation {ADD, SUBTRACT, DIVIDE,MULTIPLICATION}
 
     public double calculate(Operation operation) {
         double result;
