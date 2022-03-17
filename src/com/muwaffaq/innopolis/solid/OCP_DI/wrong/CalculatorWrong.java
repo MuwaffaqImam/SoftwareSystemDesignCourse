@@ -9,13 +9,13 @@ package com.muwaffaq.innopolis.solid.OCP_DI.wrong;
 // DI : high = Abstract class
 // low : classes
 //
-public class Calculator {
+ class CalculatorWrong {
     private double left;
     private double right;
 
-     enum Operation {ADD, SUBTRACT, DIVIDE,MULTIPLICATION}
+    public enum Operation {ADD, SUBTRACT, DIVIDE,MULTIPLICATION}
 
-    public double calculate(Operation operation) {
+    public  double calculate(Operation operation) {
         double result;
         switch (operation) {
             case ADD:
@@ -32,10 +32,11 @@ public class Calculator {
         return result;
     }
 
-    void main() {
-        Calculator calculator = new Calculator();
+    public static void main(String[] args) {
+        CalculatorWrong calculator = new CalculatorWrong();
         calculator.calculate(Operation.ADD);
-        calculator.calculate(Operation.SUBTRACT);
+        calculator.calculate(Operation.ADD);
+
     }
 
 }

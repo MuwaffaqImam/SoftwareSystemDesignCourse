@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.solid.LSP_IS.correctYoutube;
+package com.muwaffaq.innopolis.solid.LSP_IS.correct;
 
 
 

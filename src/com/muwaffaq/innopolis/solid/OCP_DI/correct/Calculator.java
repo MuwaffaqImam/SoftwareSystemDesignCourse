@@ -1,6 +1,6 @@
 package com.muwaffaq.innopolis.solid.OCP_DI.correct;
 
-public class Calculator {
+ class Calculator {
     double result;
 
     void calculate(Operation operation) {
