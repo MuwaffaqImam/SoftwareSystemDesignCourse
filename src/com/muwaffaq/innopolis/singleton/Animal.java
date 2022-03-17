@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.singeliton;
+package com.muwaffaq.innopolis.singleton;
 
 public abstract class Animal {
     public String name;
