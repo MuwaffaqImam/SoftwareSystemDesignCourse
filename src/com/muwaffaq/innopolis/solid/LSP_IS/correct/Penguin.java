@@ -12,7 +12,7 @@ public class Penguin  extends  Bird implements Swimmable, Hatchable {
     }
 
     @Override
-    public void layEggs() {
+    public void hatch() {
 
     }
 

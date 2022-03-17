@@ -15,6 +15,9 @@ package com.muwaffaq.innopolis.solid.OCP_DI.wrong;
 
     public enum Operation {ADD, SUBTRACT, DIVIDE,MULTIPLICATION}
 
+    /// ❌ ❌ ❌ ❌
+    /// this function violates the OP principle
+    /// because it depend on concrete classes enum
     public  double calculate(Operation operation) {
         double result;
         switch (operation) {

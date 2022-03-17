@@ -1,6 +1,5 @@
 package com.muwaffaq.innopolis.solid.SRP.wrong;
-
-import com.moofiyTv.mossapp.SRP.Product;
+import com.muwaffaq.innopolis.solid.SRP.correct.Product;
 
 import java.util.List;
 

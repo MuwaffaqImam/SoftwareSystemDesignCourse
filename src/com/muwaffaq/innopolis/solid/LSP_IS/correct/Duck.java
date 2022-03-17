@@ -15,7 +15,7 @@ public class Duck extends Bird implements Flyable, Swimmable, Hatchable {
     }
 
     @Override
-    public void layEggs() {
+    public void hatch() {
 
     }
 

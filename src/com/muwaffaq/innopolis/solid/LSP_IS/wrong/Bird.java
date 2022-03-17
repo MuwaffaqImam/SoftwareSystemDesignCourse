@@ -5,6 +5,6 @@ package com.muwaffaq.innopolis.solid.LSP_IS.wrong;
  interface Bird {
     void fly();
     void eat();
-    void layEggs();
+    void hatch();
     void swim();
 }
