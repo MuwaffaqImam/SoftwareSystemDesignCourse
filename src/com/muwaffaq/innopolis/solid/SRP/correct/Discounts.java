@@ -2,9 +2,10 @@ package com.muwaffaq.innopolis.solid.SRP.correct;
 
 public class Discounts {
 
-    double totals;
+    private double totals;
 
-    void applyDiscount(int percentage) {
-        totals = totals * percentage;
+    public Discounts(double totals) {
+        this.totals = totals;
     }
+
 }

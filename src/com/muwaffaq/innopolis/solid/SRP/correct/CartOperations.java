@@ -1,12 +1,15 @@
 package com.muwaffaq.innopolis.solid.SRP.correct;
 
 
-
 import java.util.List;
 
 public class CartOperations {
 
-    List<Product> products;
+    private List<Product> products;
+
+    public CartOperations(List<Product> products) {
+        this.products = products;
+    }
 
     void addToCart(Product product) {
         products.add(product);

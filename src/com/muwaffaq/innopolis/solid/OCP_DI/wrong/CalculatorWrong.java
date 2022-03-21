@@ -13,7 +13,12 @@ package com.muwaffaq.innopolis.solid.OCP_DI.wrong;
     private double left;
     private double right;
 
-    public enum Operation {ADD, SUBTRACT, DIVIDE,MULTIPLICATION}
+    public CalculatorWrong(double left, double right) {
+        this.left = left;
+        this.right = right;
+    }
+
+    public enum Operation {ADD, SUBTRACT, DIVIDE, MUL}
 
     /// ❌ ❌ ❌ ❌
     /// this function violates the OP principle
@@ -36,9 +41,9 @@ package com.muwaffaq.innopolis.solid.OCP_DI.wrong;
     }
 
     public static void main(String[] args) {
-        CalculatorWrong calculator = new CalculatorWrong();
-        calculator.calculate(Operation.ADD);
-        calculator.calculate(Operation.ADD);
+        CalculatorWrong calculator = new CalculatorWrong(3,4);
+        System.out.println(calculator.calculate(Operation.ADD));
+        System.out.println(calculator.calculate(Operation.SUBTRACT));
 
     }
 

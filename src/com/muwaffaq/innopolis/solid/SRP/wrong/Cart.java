@@ -18,18 +18,17 @@ public class Cart {
     double totals;
     String token;
 
+    // -- cart operation
     void addToCart(Product product) {
         products.add(product);
     }
-
     void removeFromCart(Product product) {
         products.remove(product);
     }
-
+    // discount manager
     void applyDiscount(int percentage) {
         totals = totals * percentage;
     }
-
 
 }
 

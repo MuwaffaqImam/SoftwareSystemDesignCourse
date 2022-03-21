@@ -12,7 +12,7 @@ public class Human implements Needs {
     private double salary;
     private List<String> hobbies;
 
-    enum Languages {Arabic, English, Japanese}
+    public enum Languages {Arabic, English, Japanese}
 
     String sayHello(Languages languages) {
         if (languages == Languages.Arabic)
@@ -59,7 +59,7 @@ public class Human implements Needs {
 
     public static void main(String[] args) {
         Human human = new Human();
-        human.sayHello(Languages.Arabic);
+
     }
 
 }

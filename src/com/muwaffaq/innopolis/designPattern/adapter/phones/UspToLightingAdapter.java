@@ -1,0 +1,15 @@
+package com.muwaffaq.innopolis.designPattern.adapter.phones;
+
+public class UspToLightingAdapter implements LightningPort  {
+
+    private UspPort uspPort;
+
+    public UspToLightingAdapter(UspPort uspPort) {
+        this.uspPort = uspPort;
+    }
+
+    @Override
+    public void chargeByLightning() {
+        uspPort.chargeByUsp();
+    }
+}
