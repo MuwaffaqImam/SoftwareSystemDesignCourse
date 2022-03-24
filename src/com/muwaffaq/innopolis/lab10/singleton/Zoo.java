@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.designPattern.singleton;
+package com.muwaffaq.innopolis.lab10.singleton;
 
 import java.util.ArrayList;
 import java.util.List;

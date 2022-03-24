@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.designPattern.factory;
+package com.muwaffaq.innopolis.lab10.factory;
 
 public class Triangle implements Perimeter {
 

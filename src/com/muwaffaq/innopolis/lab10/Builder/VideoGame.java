@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.designPattern.Builder;
+package com.muwaffaq.innopolis.lab10.Builder;
 
 public class VideoGame {
     private String title;

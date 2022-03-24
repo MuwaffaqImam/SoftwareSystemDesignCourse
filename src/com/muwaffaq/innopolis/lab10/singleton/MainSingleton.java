@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.designPattern.singleton;
+package com.muwaffaq.innopolis.lab10.singleton;
 
 
 public class MainSingleton {
@@ -9,12 +9,8 @@ public class MainSingleton {
         AnimalZoo eagle = new Eagle("Eagle");
         cat.addToZoo();
         eagle.addToZoo();
-        eagle.addToZoo();
-        eagle.addToZoo();
-        eagle.addToZoo();
         Zoo zoo = Zoo.getInstance();
         zoo.displayAnimals();
-
     }
 
 

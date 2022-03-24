@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.designPattern.Builder;
+package com.muwaffaq.innopolis.lab10.Builder;
 
 public class Main {
 
@@ -14,7 +14,6 @@ public class Main {
                 .releaseDate("25.02.2022")
                 .trailerUrl("https://youtu.be/K_03kFqWfqs")
                 .build();
-
         System.out.println(videoGame.toString());
 
     }

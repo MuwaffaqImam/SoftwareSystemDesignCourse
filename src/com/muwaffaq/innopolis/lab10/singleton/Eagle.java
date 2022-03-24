@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.designPattern.singleton;
+package com.muwaffaq.innopolis.lab10.singleton;
 
 public class Eagle extends AnimalZoo {
     String eagleType;

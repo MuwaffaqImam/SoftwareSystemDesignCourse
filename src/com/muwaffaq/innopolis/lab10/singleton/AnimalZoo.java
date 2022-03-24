@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.designPattern.singleton;
+package com.muwaffaq.innopolis.lab10.singleton;
 
 public abstract class AnimalZoo {
     public String name;
