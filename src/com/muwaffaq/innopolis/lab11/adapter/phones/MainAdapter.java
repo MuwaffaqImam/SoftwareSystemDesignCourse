@@ -1,4 +1,6 @@
-package com.muwaffaq.innopolis.designPattern.adapter.phones;
+package com.muwaffaq.innopolis.lab11.adapter.phones;
+
+import com.muwaffaq.innopolis.lab11.composite.UspToLightingAdapter;
 
 public class MainAdapter {
 

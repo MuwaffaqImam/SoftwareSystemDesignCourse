@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.designPattern.adapter.phones;
+package com.muwaffaq.innopolis.lab11.adapter.phones;
 
 public class ChargerStation {
 

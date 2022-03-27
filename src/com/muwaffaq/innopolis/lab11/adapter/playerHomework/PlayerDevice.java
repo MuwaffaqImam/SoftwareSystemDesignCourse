@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.designPattern.adapter.playerHomework;
+package com.muwaffaq.innopolis.lab11.adapter.playerHomework;
 
 public class PlayerDevice {
 
