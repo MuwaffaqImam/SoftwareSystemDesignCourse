@@ -10,6 +10,8 @@ public class VideoGame {
     private double price;
     private boolean isPurchased;
 
+
+
     private VideoGame(){ }
 
     public String toString() {

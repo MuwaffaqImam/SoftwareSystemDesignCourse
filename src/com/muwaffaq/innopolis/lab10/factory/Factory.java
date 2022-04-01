@@ -17,8 +17,9 @@ public class Factory {
         perimeter.calculate();
     }
 
+
     public static void main(String[] args) {
-        Factory factory = new Factory();
+        Factory  factory = new Factory();
         factory.printPerimeter(factory.getShape(Shapes.SQUARE));
         factory.printPerimeter(factory.getShape(Shapes.TRIANGLE));
         factory.printPerimeter(factory.getShape(Shapes.RECTANGLE));
