@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.lab11.composite;
+package com.muwaffaq.innopolis.lab11.adapter;
 
 import com.muwaffaq.innopolis.lab11.adapter.phones.LightningPort;
 import com.muwaffaq.innopolis.lab11.adapter.phones.UspPort;

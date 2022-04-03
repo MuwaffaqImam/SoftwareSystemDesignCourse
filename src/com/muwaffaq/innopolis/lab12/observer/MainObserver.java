@@ -1,6 +1,8 @@
-package com.muwaffaq.innopolis.designPattern.observer;
-import com.muwaffaq.innopolis.designPattern.observer.subscriber.*;
-import com.muwaffaq.innopolis.designPattern.observer.publisher.PlaystationManager;
+package com.muwaffaq.innopolis.lab12.observer;
+import com.muwaffaq.innopolis.lab12.observer.publisher.PlaystationManager;
+import com.muwaffaq.innopolis.lab12.observer.subscriber.DarkSoulsFan;
+import com.muwaffaq.innopolis.lab12.observer.subscriber.HorizonFan;
+import com.muwaffaq.innopolis.lab12.observer.subscriber.PlaystationFan;
 
 public class MainObserver {
 

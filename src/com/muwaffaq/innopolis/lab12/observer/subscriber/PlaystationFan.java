@@ -1,8 +1,8 @@
-package com.muwaffaq.innopolis.designPattern.observer.subscriber;
+package com.muwaffaq.innopolis.lab12.observer.subscriber;
 
 
-import com.muwaffaq.innopolis.designPattern.observer.Game;
-import com.muwaffaq.innopolis.designPattern.observer.Observer;
+import com.muwaffaq.innopolis.lab12.observer.Game;
+import com.muwaffaq.innopolis.lab12.observer.Observer;
 
 public class PlaystationFan implements Observer<Game> {
     @Override
