@@ -14,11 +14,11 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
             String next = scanner.next();
             if (next.toUpperCase().equals("A")) {
-                carWorkshop.setWorkshop(message -> System.out.println("we Should assembles it"));
-                carWorkshop.startFiltering("not used string");
+                carWorkshop.setWorkshop(message -> System.out.println(message+ " we Should assembles it"));
+                carWorkshop.startFiltering("Assemble");
             } else if (next.toUpperCase().equals("D")) {
-                carWorkshop.setWorkshop(message -> System.out.println("we Should disassembles it"));
-                carWorkshop.startFiltering("");
+                carWorkshop.setWorkshop(message -> System.out.println(message+" we Should disassembles it"));
+                carWorkshop.startFiltering("Disassemble");
             } else
                 break;
         }
