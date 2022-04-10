@@ -1,8 +1,8 @@
-package com.muwaffaq.innopolis.lab12.observer.publisher;
+package com.muwaffaq.innopolis.lab13.observer.publisher;
 
 
-import com.muwaffaq.innopolis.lab12.observer.Game;
-import com.muwaffaq.innopolis.lab12.observer.Observer;
+import com.muwaffaq.innopolis.lab13.observer.Game;
+import com.muwaffaq.innopolis.lab13.observer.Observer;
 
 import java.util.Scanner;
 

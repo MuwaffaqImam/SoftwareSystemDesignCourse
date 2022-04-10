@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.lab12.observer;
+package com.muwaffaq.innopolis.lab13.observer;
 public class Game {
 
     public String title;

@@ -1,6 +1,6 @@
-package com.muwaffaq.innopolis.lab12.observer.subscriber;
-import com.muwaffaq.innopolis.lab12.observer.Game;
-import com.muwaffaq.innopolis.lab12.observer.Observer;
+package com.muwaffaq.innopolis.lab13.observer.subscriber;
+import com.muwaffaq.innopolis.lab13.observer.Game;
+import com.muwaffaq.innopolis.lab13.observer.Observer;
 
 public class DarkSoulsFan implements Observer<Game> {
     @Override

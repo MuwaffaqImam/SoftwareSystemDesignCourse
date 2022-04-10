@@ -1,8 +1,6 @@
-package com.muwaffaq.innopolis.lab12.momento;
+package com.muwaffaq.innopolis.lab13.momento;
 
 import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
 
 public class History<T> {
 
