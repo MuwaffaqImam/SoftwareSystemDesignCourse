@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.lab11.adapter.playerHomework.solution;
+package com.muwaffaq.innopolis.lab11.adapter.solutionPlayerHW;
 
 import com.muwaffaq.innopolis.lab11.adapter.playerHomework.AudioPlayer;
 import com.muwaffaq.innopolis.lab11.adapter.playerHomework.MediaPlayer;
