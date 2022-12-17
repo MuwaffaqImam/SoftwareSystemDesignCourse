@@ -14,6 +14,6 @@ public class MainPlayer {
         Media media = new Media();
         PlayerDevice playerDevice = new PlayerDevice();
         playerDevice.playMb4(media);
-        playerDevice.playMb4(new Mp3ToMp4Adapter(audio));
+//        playerDevice.playMb4(new Mp3ToMp4Adapter(audio));
     }
 }
