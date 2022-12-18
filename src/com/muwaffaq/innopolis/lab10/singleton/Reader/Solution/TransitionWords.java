@@ -1,4 +1,4 @@
-package com.muwaffaq.innopolis.lab10.singleton.Reader.Correct;
+package com.muwaffaq.innopolis.lab10.singleton.Reader.Solution;
 
 import java.io.File;
 import java.io.FileNotFoundException;

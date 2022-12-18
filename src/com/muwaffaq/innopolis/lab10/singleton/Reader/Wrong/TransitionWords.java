@@ -8,12 +8,17 @@ public class TransitionWords {
     private List<String> dataCollection;
 
 
+
+    // expensive object
     public TransitionWords() {
         dataCollection = new ArrayList<String>();
         readFile();
     }
 
+
+
     private void readFile() {
+        // a long process
         try {
             Thread.sleep(3000);
             File myObj = new File("src/com/muwaffaq/innopolis/lab10/singleton/Reader/transitions.txt");

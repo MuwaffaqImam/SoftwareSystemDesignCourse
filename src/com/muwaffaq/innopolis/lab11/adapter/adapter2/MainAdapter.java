@@ -10,8 +10,8 @@ public class MainAdapter {
         iPhone iPhone = new iPhone();
         Android android = new Android();
         ChargerStation station = new ChargerStation();
-        station.chargeByLightning(iPhone);
-//        station.chargeByLightning(android); //--> error
+        UspToLightningAdapter adapter = new UspToLightningAdapter(android);
+        station.chargeByLightning(adapter);
 
 
     }

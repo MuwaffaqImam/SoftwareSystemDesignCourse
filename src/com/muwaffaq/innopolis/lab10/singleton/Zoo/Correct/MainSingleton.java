@@ -5,10 +5,8 @@ public class MainSingleton {
 
 
     public static void main(String[] args) {
-        AnimalZoo cat = new Cat("cat");
-        AnimalZoo eagle = new Eagle("Eagle");
+        AnimalZoo cat = new Cat();
         cat.addToZoo();
-        eagle.addToZoo();
         Zoo zoo = Zoo.getInstance();
         zoo.displayAnimals();
     }

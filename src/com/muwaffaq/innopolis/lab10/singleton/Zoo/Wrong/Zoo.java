@@ -5,7 +5,13 @@ import java.util.List;
 
 public class Zoo {
 
+    // to object it will run as how many time you initialize an object
     private List<AnimalZoo> animalList;
+
+
+    Zoo() {
+        animalList = new ArrayList<>();
+    }
 
 
     public void addAnimal(AnimalZoo animal) {

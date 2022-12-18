@@ -1,6 +1,5 @@
 package com.muwaffaq.innopolis.lab11.adapter.phones;
 
-import com.muwaffaq.innopolis.lab11.adapter.UspToLightingAdapter;
 
 public class MainAdapter {
 
@@ -11,8 +10,8 @@ public class MainAdapter {
         station.chargeByLightning(iPhone);
         // focus here
         Android android = new Android();
-        UspToLightingAdapter adapter = new UspToLightingAdapter(android);
-        station.chargeByLightning(adapter);
+//        UspToLightingAdapter adapter = new UspToLightingAdapter(android);
+//        station.chargeByLightning(adapter);
 
     }
 }

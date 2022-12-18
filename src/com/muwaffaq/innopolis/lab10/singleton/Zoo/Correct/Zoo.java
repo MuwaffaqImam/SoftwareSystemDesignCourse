@@ -25,7 +25,6 @@ public class Zoo {
         System.out.printf("We have %d Animals in the zoo \n", animalList.size());
         System.out.println("All Animal Must Entertain: ");
         animalList.forEach(animalZoo -> {
-            System.out.println(animalZoo.name);
             animalZoo.entertain();
         });
     }
